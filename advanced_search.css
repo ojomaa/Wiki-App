@@ -1,0 +1,116 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+#one {
+    position: absolute;
+    right: 50px;
+}
+
+#submit {
+    position: absolute;
+    left: 583px;
+    top: 400px;
+    padding: 5px;
+    border: 1px solid #3079ed;
+    background-color: #4d90fe;
+    color: white;
+}
+
+#submit:hover{
+    background-color: #3079ed;
+}
+
+#all {
+    position: absolute;
+    top:200px;
+    left: 300px;
+    width: 400px;
+    padding: 5px;
+    margin:5px 0;
+    border: 1px solid #a0a0a0;
+}
+
+#exact {
+    position: absolute;
+    top:250px;
+    left: 300px;
+    width: 400px;
+    padding: 5px;
+    margin:5px 0;
+    border: 1px solid #a0a0a0;
+}
+
+#any {
+    position: absolute;
+    top:300px;
+    left: 300px;
+    width: 400px;
+    padding: 5px;
+    margin:5px 0;
+    border: 1px solid #a0a0a0;
+}
+
+#none {
+    position: absolute;
+    top:350px;
+    left: 300px;
+    width: 400px;
+    padding: 5px;
+    margin:5px 0;
+    border: 1px solid #a0a0a0;
+}
+
+#pall{
+    position: absolute;
+    top:193px;
+    left: 175px;
+    width: 400px;
+}
+
+#pexact{
+    position: absolute;
+    top:243px;
+    left: 110px;
+    width: 400px;
+}
+
+#pany{
+    position: absolute;
+    top:293px;
+    left: 150px;
+    width: 400px;
+}
+
+#pnone{
+    position: absolute;
+    top:343px;
+    left: 143px;
+    width: 400px;
+}
+
+#formtitle{
+    position: absolute;
+    font-size: 20px;
+    top: 140px;
+    left: 130px;
+    color: #343434;
+}
+
+#logo{
+    position: absolute;
+    left: 75px;
+    top: 40px;
+}
+
+#header{
+    position: absolute;
+    color: #d93025;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 120%;
+    top:65px;
+    left: 75px;
+
+}
