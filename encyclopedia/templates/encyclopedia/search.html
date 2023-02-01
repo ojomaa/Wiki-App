@@ -1,0 +1,30 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Search
+{% endblock %}
+
+{% block body %}
+    <h1>Search</h1>
+
+    <div>
+        Unfortunately, there are no results for {{ title }}.
+        <div>
+            {% if related_search %}
+                <p> Could you be looking for: </p>
+                {% for related in related_search%}
+                <div>
+                    <a href = "{% url 'entry' related %}">
+                        {{ related }}
+                    </a>
+                </div>    
+                {% endfor %}
+            {% else %}
+                <div>
+                
+                </div> 
+            {% endif %}
+        </div>
+    </div>
+
+{% endblock %}
