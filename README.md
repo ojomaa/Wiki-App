@@ -33,11 +33,11 @@ Create a Wikipedia like app using Django, HTML/CSS, and Markdowner.
 ### Setup and Usage
 A step-by-step guide on how to install and run the project locally.
 
-Clone the repository to your local machine.
-Install the required packages: pip install -r requirements.txt
-Run the development server: python manage.py runserver
-Use localhost to deploy the project and enjoy!
+- Clone the repository to your local machine.
+- Install the required packages: pip install -r requirements.txt
+- Run the development server: python manage.py runserver
+- Use localhost to deploy the project and enjoy!
 
 ### Languages and Frameworks
-This Project uses the following languages: Python, HTML and CSS
-This project uses the following framework in Python: Django
+- This Project uses the following languages: Python, HTML and CSS
+- This project uses the following framework in Python: Django
